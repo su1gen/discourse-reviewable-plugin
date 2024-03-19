@@ -1,0 +1,3 @@
+plugins:
+  upgraded_reviewables_enabled:
+    default: true

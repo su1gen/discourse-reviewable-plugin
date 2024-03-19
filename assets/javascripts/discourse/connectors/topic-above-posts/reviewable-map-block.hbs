@@ -1,0 +1,7 @@
+{{#if this.model.pending_posts}}
+  <div class="reviewable-map" style="display: none">
+    {{#each this.model.pending_posts as |pending|}}
+      <div class="reviewable-map-item" data-reviewable-id={{pending.id}}></div>
+    {{/each}}
+  </div>
+{{/if}}
